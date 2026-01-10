@@ -1,0 +1,26 @@
+
+<h1>Listado de profesores</h1>
+
+@for (profesor of profesores; track profesor) {
+  <li>{{ profesor }}</li>
+}@empty {
+  <li>No hay profesores </li>
+}
+
+<br>
+<h1>Listado de productos</h1>
+
+@for (producto of productos; track producto) {
+  <li>{{ producto.nombre }} - {{ producto.precio}}</li>
+}@empty {
+  <li>No hay productos </li>
+}
+
+<br>
+<h1>Datos del usuario</h1>
+
+<ul>
+  <li>Nombre: {{ usuario.nombre }}</li>
+  <li>Apellidos: {{ usuario.apellidos }}</li>
+  <li>Edad: {{ usuario.edad }}</li>
+</ul>

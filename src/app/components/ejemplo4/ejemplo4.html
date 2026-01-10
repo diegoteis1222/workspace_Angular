@@ -1,0 +1,6 @@
+<p>El valor del numero es: {{ numero }}</p>
+<button (click)="incrementar()">Incrementar</button>
+<button (click)="decrementar()">Decrementar</button>
+
+<p *ngIf="numero%2 === 0">El número es par</p>
+<p *ngIf="numero%2 !== 0">El número es impar</p>
