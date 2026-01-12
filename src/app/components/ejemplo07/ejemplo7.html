@@ -1,1 +1,4 @@
 <div class="pink">div rosa</div>
+<div [class.pink]="theme==='pastel'">Div rosa</div>
+<div [class.pink]="theme==='dark'">Div pastel</div>
+<div [ngClass]="{ 'background-color': theme==='pastel'}"></div>
