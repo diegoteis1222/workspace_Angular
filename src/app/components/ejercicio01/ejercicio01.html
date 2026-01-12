@@ -1,0 +1,6 @@
+@for (numero of numeros; track numero) {
+
+    @if (!isEven(numero)) {
+        <p [ngClass]="{ 'text-red-500': numero > 100 }">{{ numero }}</p>
+    }
+}
