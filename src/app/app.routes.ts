@@ -9,16 +9,28 @@ import { Ejemplo4 } from './components/ejemplo04/ejemplo4';
 import { Ejemplo5 } from './components/ejemplo05/ejemplo5';
 import { Ejemplo6 } from './components/ejemplo06/ejemplo6';
 import { Ejemplo7 } from './components/ejemplo07/ejemplo7';
+import { Ejercicio01 } from './components/ejercicio01/ejercicio01';
+import { Ejemplo08 } from './components/ejemplo08/ejemplo08';
+import { Ejemplo09 } from './components/ejemplo09/ejemplo09';
+import { Ejemplo10 } from './components/ejemplo10/ejemplo10';
+import { Ejemplo11 } from './components/ejemplo11/ejemplo11';
+import { Ejemplo12Padre } from './components/ejemplo12-padre/ejemplo12-padre';
 
 export const routes: Routes = [
-  { path: 'ejemplo0', component: Ejemplo0 },
-  { path: 'ejemplo1', component: Ejemplo1 },
-  { path: 'ejemplo2', component: Ejemplo2 },
-  { path: 'ejemplo3', component: Ejemplo3 },
-  { path: 'ejemplo3b', component: Ejemplo3b },
-  { path: 'ejemplo4', component: Ejemplo4 },
-  { path: 'ejemplo4b', component: Ejemplo4b },
-  { path: 'ejemplo5', component: Ejemplo5 },
-  { path: 'ejemplo6', component: Ejemplo6 },
-  { path: 'ejemplo7', component: Ejemplo7 },
+  { path: 'ejemplo00', component: Ejemplo0 },
+  { path: 'ejemplo01', component: Ejemplo1 },
+  { path: 'ejemplo02', component: Ejemplo2 },
+  { path: 'ejemplo03', component: Ejemplo3 },
+  { path: 'ejemplo03b', component: Ejemplo3b },
+  { path: 'ejemplo04', component: Ejemplo4 },
+  { path: 'ejemplo04b', component: Ejemplo4b },
+  { path: 'ejemplo05', component: Ejemplo5 },
+  { path: 'ejemplo06', component: Ejemplo6 },
+  { path: 'ejemplo07', component: Ejemplo7 },
+  { path: 'ejemplo08', component: Ejemplo08 },
+  { path: 'ejemplo09', component: Ejemplo09 },
+  { path: 'ejemplo10', component: Ejemplo10 },
+  { path: 'ejemplo11', component: Ejemplo11 },
+  { path: 'ejemplo12', component: Ejemplo12Padre },
+  { path: 'ejercicio01', component: Ejercicio01 },
 ];
