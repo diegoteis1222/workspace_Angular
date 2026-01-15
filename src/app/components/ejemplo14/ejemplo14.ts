@@ -12,6 +12,7 @@ import { PendejoCharacter } from '../../models/Pendejo';
 })
 export class Ejemplo14 {
   pendejos: PendejoCharacter[] = [];
+  
   constructor(private rickymortoService: RickymortoService) {
     this.rickymortoService.getAll().subscribe((pendejos) => {
       console.log(pendejos);

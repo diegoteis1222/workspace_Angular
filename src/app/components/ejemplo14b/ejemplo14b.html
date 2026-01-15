@@ -1,0 +1,10 @@
+<p>listado de rick y MORTO</p>
+
+@let personajes = (pendejos$ | async)?.results;
+
+@for (pendejo of personajes; track pendejo) {
+<p>{{ pendejo.name }}</p>
+<img [src]="pendejo.image" width="100px" alt="xxx" />
+} @empty {
+<p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH DIOS MIOOO</p>
+}
