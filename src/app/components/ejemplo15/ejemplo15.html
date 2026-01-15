@@ -1,0 +1,6 @@
+<div *ngIf="user.idAdmin else noAdmin">
+    <p>el maldito {{ user.name }} es admin</p>
+</div>
+<ng-template #noAdmin>
+    <p>el maldito {{ user.name }} no es admin</p>
+</ng-template>
