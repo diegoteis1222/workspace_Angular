@@ -17,7 +17,10 @@ import { Ejemplo11 } from './components/ejemplo11/ejemplo11';
 import { Ejemplo12Padre } from './components/ejemplo12-padre/ejemplo12-padre';
 import { Ejemplo13Padre } from './components/ejemplo13-padre/ejemplo13-padre';
 import { Ejemplo14 } from './components/ejemplo14/ejemplo14';
-
+import { Ejemplo14b } from './components/ejemplo14b/ejemplo14b';
+import {Ejemplo15} from './components/ejemplo15/ejemplo15';
+import { Ejemplo16 } from './components/ejemplo16/ejemplo16';
+import { Ejemplo17 } from './components/ejemplo17/ejemplo17';
 
 export const routes: Routes = [
   { path: 'ejemplo00', component: Ejemplo0 },
@@ -37,6 +40,11 @@ export const routes: Routes = [
   { path: 'ejemplo12', component: Ejemplo12Padre },
   { path: 'ejemplo13', component: Ejemplo13Padre },
   { path: 'ejemplo14', component: Ejemplo14 },
+  { path: 'ejemplo14b', component: Ejemplo14b },
+  { path: 'ejemplo15', component: Ejemplo15 },
+  { path: 'ejemplo16', component: Ejemplo16 },
+  { path: 'ejemplo17/:id', component: Ejemplo17 },
   { path: 'ejercicio01', component: Ejercicio01 },
+  
 
 ];
