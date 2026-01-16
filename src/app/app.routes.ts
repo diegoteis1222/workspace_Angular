@@ -18,9 +18,12 @@ import { Ejemplo12Padre } from './components/ejemplo12-padre/ejemplo12-padre';
 import { Ejemplo13Padre } from './components/ejemplo13-padre/ejemplo13-padre';
 import { Ejemplo14 } from './components/ejemplo14/ejemplo14';
 import { Ejemplo14b } from './components/ejemplo14b/ejemplo14b';
-import {Ejemplo15} from './components/ejemplo15/ejemplo15';
+import { Ejemplo15 } from './components/ejemplo15/ejemplo15';
 import { Ejemplo16 } from './components/ejemplo16/ejemplo16';
 import { Ejemplo17 } from './components/ejemplo17/ejemplo17';
+import { Ejercicio02 } from './components/ejercicio02/ejercicio02';
+import { Ejemplo18 } from './components/ejemplo18/ejemplo18';
+import { Ejemplo19 } from './components/ejemplo19/ejemplo19';
 
 export const routes: Routes = [
   { path: 'ejemplo00', component: Ejemplo0 },
@@ -44,7 +47,9 @@ export const routes: Routes = [
   { path: 'ejemplo15', component: Ejemplo15 },
   { path: 'ejemplo16', component: Ejemplo16 },
   { path: 'ejemplo17/:id', component: Ejemplo17 },
-  { path: 'ejercicio01', component: Ejercicio01 },
-  
+  { path: 'ejemplo18', component: Ejemplo18 },
+  { path: 'ejemplo19', component: Ejemplo19 },
 
+  { path: 'ejercicio01', component: Ejercicio01 },
+  { path: 'ejercicio02', component: Ejercicio02 },
 ];
