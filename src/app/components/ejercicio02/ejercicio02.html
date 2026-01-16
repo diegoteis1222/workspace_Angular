@@ -1,1 +1,7 @@
-<p>ejercicio02 works!</p>
+<form (ngSubmit)="handleSubmit()">
+    <label>Altura (metros): <input type="number" name="altura" [(ngModel)]="altura"></label>
+    <label>Peso (kilogramos): <input type="number" name="peso" [(ngModel)]="peso"></label>
+    <button type="submit">Calcular IMC</button>
+</form>
+
+<p>IMC: {{imc}}</p>
