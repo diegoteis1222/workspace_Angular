@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { of } from 'rxjs';
+import { map, of, tap } from 'rxjs';
 
 @Component({
   selector: 'app-ejemplo20e',
@@ -10,6 +10,8 @@ import { of } from 'rxjs';
 })
 export class Ejemplo20e {
   resultado$ = of(5).pipe(
-    
-  )
+    tap((v) => console.log('Antes: ', v)),
+    map((v) => v * 2),
+    tap((v) => console.log('Despues: ', v))
+  );
 }
