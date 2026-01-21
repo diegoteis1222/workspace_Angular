@@ -24,6 +24,12 @@ import { Ejemplo17 } from './components/ejemplo17/ejemplo17';
 import { Ejercicio02 } from './components/ejercicio02/ejercicio02';
 import { Ejemplo18 } from './components/ejemplo18/ejemplo18';
 import { Ejemplo19 } from './components/ejemplo19/ejemplo19';
+import { Ejemplo20a } from './components/ejemplo20a/ejemplo20a';
+import { Ejemplo20b } from './components/ejemplo20b/ejemplo20b';
+import { Ejemplo20c } from './components/ejemplo20c/ejemplo20c';
+import { Ejemplo20d } from './components/ejemplo20d/ejemplo20d';
+import { Ejemplo20e } from './components/ejemplo20e/ejemplo20e';
+import { Ejemplo20f } from './components/ejemplo20f/ejemplo20f';
 
 export const routes: Routes = [
   { path: 'ejemplo00', component: Ejemplo0 },
@@ -49,6 +55,14 @@ export const routes: Routes = [
   { path: 'ejemplo17/:id', component: Ejemplo17 },
   { path: 'ejemplo18', component: Ejemplo18 },
   { path: 'ejemplo19', component: Ejemplo19 },
+  { path: 'ejemplo20a', component: Ejemplo20a },
+  { path: 'ejemplo20b', component: Ejemplo20b },
+  { path: 'ejemplo20c', component: Ejemplo20c },
+  { path: 'ejemplo20d', component: Ejemplo20d },  
+  { path: 'ejemplo20e', component: Ejemplo20e },
+  { path: 'ejemplo20f', component: Ejemplo20f },
+  
+  
 
   { path: 'ejercicio01', component: Ejercicio01 },
   { path: 'ejercicio02', component: Ejercicio02 },
